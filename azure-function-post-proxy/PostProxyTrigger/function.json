@@ -1,0 +1,18 @@
+﻿{
+  "disabled": false,
+  "scriptFile": "..\\bin\\azure-function-post-proxy.dll",
+  "entryPoint": "AzureFunctionsPostProxy.PostProxyTrigger.Run",
+  "bindings": [
+    {
+      "authLevel": "function",
+      "name": "req",
+      "type": "httpTrigger",
+      "direction": "in"
+    },
+    {
+      "name": "res",
+      "type": "http",
+      "direction": "out"
+    }
+  ]
+}

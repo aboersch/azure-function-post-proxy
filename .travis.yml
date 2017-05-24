@@ -1,0 +1,5 @@
+language: csharp
+solution: azure-function-post-proxy.sln
+deploy:
+  provider: azure_web_apps
+  sute: post-proxy
