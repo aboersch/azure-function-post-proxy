@@ -1,4 +1,4 @@
-# azure-function-post-proxy
+# azure-function-post-proxy [![Build Status](https://travis-ci.org/aboersch/azure-function-post-proxy.svg?branch=master)](https://travis-ci.org/aboersch/azure-function-post-proxy)
 
 Azure function that will transform a http GET Request to a POST Request to the escaped URL specified as a query parameter, passing along the content of the GET Request as well as all other query parameters.
 
