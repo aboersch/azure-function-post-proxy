@@ -1,0 +1,28 @@
+{
+  "name": "azure-function-travis",
+  "version": "1.0.0",
+  "description": "Azure function that will transform a http GET Request to a POST Request to the escaped URL specified as a query parameter, passing along the content of the GET Request as well as all other query parameters.",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aboersch/azure-function-post-proxy.git"
+  },
+  "author": "Alexander Boersch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aboersch/azure-function-post-proxy/issues"
+  },
+  "homepage": "https://github.com/aboersch/azure-function-post-proxy#readme",
+  "devDependencies": {
+    "@types/rimraf": "0.0.28",
+    "@types/vinyl-fs": "^2.4.5"
+  },
+  "dependencies": {
+    "rimraf": "^2.6.1",
+    "vinyl-fs": "^2.4.4",
+    "vinyl-ftp": "^0.6.0"
+  }
+}

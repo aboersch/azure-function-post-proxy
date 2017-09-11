@@ -1,0 +1,11 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "taskName": "Compile Gulp",
+            "type": "shell",
+            "command": "tsc gulpfile.ts --sourceMap --lib es2015",
+            "problemMatcher": "$tsc"
+        }
+    ]
+}
